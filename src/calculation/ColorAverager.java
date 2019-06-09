@@ -18,7 +18,6 @@ import visualization.ImageVisual;
  * 
  * @author AlexanderWu
  */
-@SuppressWarnings("restriction")
 public class ColorAverager {
 	
 	public static int lowerTemp;
@@ -80,8 +79,8 @@ public class ColorAverager {
 	
 	public static void main(String[] args) {
 //		APImage img = new APImage("images/CurvedCorkNov7/42.jpg");
-		APImage img = new APImage("images/CurvedCorkNov7/00.jpg");
-//		APImage img = new APImage("images/CurvedCorkNov2/A1.jpg");
+//		APImage img = new APImage("images/CurvedCorkNov7/00.jpg");
+		APImage img = new APImage("images/CurvedCorkNov2/00 A1.jpg");
 		
 		try {
 			averageAllSquaresAndFindTemperatures(img, GridFinder.GRID_SIZE, "experiment2.txt");

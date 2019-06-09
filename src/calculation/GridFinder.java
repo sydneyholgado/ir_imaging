@@ -3,7 +3,6 @@ package calculation;
 import visualization.ImageVisual;
 import images.APImage;
 
-@SuppressWarnings("restriction")
 public class GridFinder {
 	
 	public static int GRID_SIZE = 25;	// in pixels

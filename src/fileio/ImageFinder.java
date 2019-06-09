@@ -14,7 +14,6 @@ import images.APImage;
  * 
  * @author AlexanderWu
  */
-@SuppressWarnings("restriction")
 public class ImageFinder implements Iterable<APImage>, Iterator<APImage> {
 	
 	public static final String IMAGE_TAIL = ".jpg";

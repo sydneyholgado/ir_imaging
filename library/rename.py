@@ -101,7 +101,7 @@ def add_part():
 #             continue
 
 
-# e.g. "7 A2.jpg" -> "06 A2.jpg"
+# e.g. "7 A2.jpg" -> "06.jpg"
 def change_counter():
     for filename in os.listdir(filepath):
         try:

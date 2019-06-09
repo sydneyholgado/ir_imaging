@@ -10,7 +10,6 @@ import images.Pixel;
  * 
  * @author AlexanderWu
  */
-@SuppressWarnings("restriction")
 public class ScaleSampler {
 
 	/** x for lower temperature, is ACTUALLY LARGER */

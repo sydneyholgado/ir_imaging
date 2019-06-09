@@ -10,7 +10,6 @@ import images.Pixel;
  * 
  * @author AlexanderWu
  */
-@SuppressWarnings("restriction")
 public class ImageVisual {
 	
 	public static void fillSquare(APImage img, Color col, int startX, int startY, int gridSize) {

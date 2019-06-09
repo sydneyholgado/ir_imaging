@@ -4,7 +4,6 @@ import calculation.ColorAverager;
 import calculation.GridFinder;
 import images.APImage;
 
-@SuppressWarnings("restriction")
 public class Main {
 	
 	public static final String IMAGE_HEAD = "images/CurvedPLAOct23/";	// CHANGE THIS
